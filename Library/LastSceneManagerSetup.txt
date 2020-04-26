@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CoastalTrackDisplayScene.unity
+- path: Assets/F8DisplayScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
