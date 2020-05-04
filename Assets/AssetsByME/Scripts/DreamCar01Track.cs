@@ -15,11 +15,11 @@ public class DreamCar01Track : MonoBehaviour {
     public GameObject Mark07;
     
     public GameObject Mark08;
-    public GameObject Mark09;
-    public GameObject Mark10;
-    public GameObject Mark11;
-    public GameObject Mark12;
-    public GameObject Mark13;
+    // public GameObject Mark09;
+    // public GameObject Mark10;
+    // public GameObject Mark11;
+    // public GameObject Mark12;
+    // public GameObject Mark13;
     
 
     public int MarkTracker;
@@ -60,26 +60,26 @@ public class DreamCar01Track : MonoBehaviour {
         {
             TheMarker.transform.position = Mark08.transform.position;
         }
-        if (MarkTracker == 8)
-        {
-            TheMarker.transform.position = Mark09.transform.position;
-        }
-        if (MarkTracker == 9)
-        {
-            TheMarker.transform.position = Mark10.transform.position;
-        }
-        if (MarkTracker == 10)
-        {
-            TheMarker.transform.position = Mark11.transform.position;
-        }
-        if (MarkTracker == 11)
-        {
-            TheMarker.transform.position = Mark12.transform.position;
-        }
-        if (MarkTracker == 12)
-        {
-            TheMarker.transform.position = Mark13.transform.position;
-        }
+        // if (MarkTracker == 8)
+        // {
+        //     TheMarker.transform.position = Mark09.transform.position;
+        // }
+        // if (MarkTracker == 9)
+        // {
+        //     TheMarker.transform.position = Mark10.transform.position;
+        // }
+        // if (MarkTracker == 10)
+        // {
+        //     TheMarker.transform.position = Mark11.transform.position;
+        // }
+        // if (MarkTracker == 11)
+        // {
+        //     TheMarker.transform.position = Mark12.transform.position;
+        // }
+        // if (MarkTracker == 12)
+        // {
+        //     TheMarker.transform.position = Mark13.transform.position;
+        // }
 
     }
 
@@ -89,7 +89,7 @@ public class DreamCar01Track : MonoBehaviour {
         {
             this.GetComponent<BoxCollider>().enabled = false;
             MarkTracker += 1;
-            if (MarkTracker == 13)
+            if (MarkTracker == 8)
             {
                 MarkTracker = 0;
             }
